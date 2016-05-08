@@ -1,5 +1,6 @@
 #!/bin/bash
 
+DIRECTORY=conf
 if [ ! -d "$DIRECTORY" ]; then
 
   git clone \
