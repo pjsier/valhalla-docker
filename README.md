@@ -16,3 +16,5 @@ To run instead issue:
 ```sh
 ./run-valhalla.sh
 ```
+##### Good to have in future:
+- A facility to load in a running container multiple OSM extracts.

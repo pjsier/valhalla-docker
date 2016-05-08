@@ -10,6 +10,6 @@ if [ ! -d "$DIRECTORY" ]; then
 fi
 
 docker build \
-  --tag movalia/valhalla \
+  --tag wouldgo/valhalla \
   --force-rm \
   .
