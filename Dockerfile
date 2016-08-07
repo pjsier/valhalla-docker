@@ -30,7 +30,7 @@ ADD ./conf /conf
 
 RUN ldconfig
 
-RUN wget https://s3.amazonaws.com/metro-extracts.mapzen.com/trento_italy.osm.pbf
+RUN wget https://s3.amazonaws.com/metro-extracts.mapzen.com/chicago_illinois.osm.pbf
 
 RUN mkdir -p /data/valhalla
 RUN valhalla_build_admins -c conf/valhalla.json *.pbf
